@@ -4,7 +4,7 @@
 Assuming that the dataset is already downloaded and unzipped, and then only the entries with Nikkei newspaper are extracted. You should upload the dataset to the Google Drive and add additional columns to the right side of the dataset. (At least I column is required to store the results of the following codes.)
 
 Then, you can run the following codes in the order below:
-- `FinBERT_NikkeiJP25En_main.ipynb`: Main code to do the prediction by FinBERT model. Each entries are translated into English by Google Translate API and then fed into the FinBERT model.
+- `FinBERT_NikkeiJP2En_main.ipynb`: Main code to do the prediction by FinBERT model. Each entries are translated into English by Google Translate API and then fed into the FinBERT model.
 
 - `StockPriceMovementLabeling.ipynb`: Labeling the stock price movement for the day when the news items containing the entries were published, based on the stock price data of Yahoo Finance obtained by `yfinance` library.
 
